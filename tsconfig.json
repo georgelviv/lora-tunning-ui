@@ -3,9 +3,9 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@models/*": ["./src/models/*"]
     }
   },
   "include": [
